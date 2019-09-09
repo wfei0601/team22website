@@ -320,15 +320,15 @@ margin-bottom: 20px;}
 
 .htmlb {width: 90%; background-color: #4CAF50;}
 .CCb {width: 90%; background-color: #2196F3;}
-.SQLb {width: 80%; background-color: lightcoral;}
+.SQLb {width: 60%; background-color: lightcoral;}
 .MSb {width: 100%; background-color: lightsteelblue;}
 .WEb {width: 100%; background-color: mediumpurple;}
-.PSb {width: 60%; background-color: greenyellow;}
-.PYb {width: 50%; background-color: darkgoldenrod;}
+.PSb {width: 40%; background-color: greenyellow;}
+.PYb {width: 0%; background-color: darkgoldenrod;}
 .TMb {width: 100%; background-color: palevioletred;}
 .LSb {width: 70%; background-color: burlywood;}
-.EIb {width: 20%; background-color: darkkhaki;}
-.JWSb {width: 40%; background-color: violet;}
+.EIb {width: 80%; background-color: darkkhaki;}
+.JWSb {width: 20%; background-color: violet;}
 .CRb {width: 90%; background-color: mediumorchid;}
 .RLb {width: 100%; background-color: yellowgreen;}
 .WHb {width: 80%; background-color: plum;}
@@ -340,19 +340,19 @@ margin-bottom: 20px;}
 
 .htmlc {width: 90%; background-color: #4CAF50;}
 .CCc {width: 90%; background-color: #2196F3;}
-.SQLc {width: 80%; background-color: lightcoral;}
-.MSc {width: 100%; background-color: lightsteelblue;}
+.SQLc {width: 90%; background-color: lightcoral;}
+.MSc {width: 90%; background-color: lightsteelblue;}
 .WEc {width: 100%; background-color: mediumpurple;}
-.PSc {width: 60%; background-color: greenyellow;}
-.PYc {width: 50%; background-color: darkgoldenrod;}
-.TMc {width: 100%; background-color: palevioletred;}
-.LSc {width: 70%; background-color: burlywood;}
-.EIc {width: 20%; background-color: darkkhaki;}
-.JWSc {width: 40%; background-color: violet;}
-.CRc {width: 90%; background-color: mediumorchid;}
+.PSc {width: 90%; background-color: greenyellow;}
+.PYc {width: 100%; background-color: darkgoldenrod;}
+.TMc {width: 50%; background-color: palevioletred;}
+.LSc {width: 60%; background-color: burlywood;}
+.EIc {width: 90%; background-color: darkkhaki;}
+.JWSc {width: 20%; background-color: violet;}
+.CRc {width: 80%; background-color: mediumorchid;}
 .RLc {width: 100%; background-color: yellowgreen;}
-.WHc {width: 80%; background-color: plum;}
-.IWc {width: 100%; background-color: lightcoral;}
+.WHc {width: 100%; background-color: plum;}
+.IWc {width: 90%; background-color: lightcoral;}
 
 
 /*This is the Skill Bar for Team*/
