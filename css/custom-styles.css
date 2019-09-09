@@ -135,9 +135,9 @@ p{padding-bottom: 25px; margin: 0;}
 .banner .carousel-caption h2{font-size: 28px; line-height: 36px;font-family: 'source_sans_prolight'; color: #fff; letter-spacing: 3px; padding-bottom: 20px;}
 .banner .carousel-caption .btn{color: #fff; font-size: 22px; line-height: 28px; font-family: 'source_sans_problack'; text-transform: uppercase; padding: 10px 25px; background: #34b091; border-radius: 40px; box-shadow: 0 3px 2px 0px #4a4c54; }
 .banner .carousel-caption .btn:hover{color: #34b091; background: #fff; transition:all 1s;}
-.banner .carousel-control {top: 45%; width: 40px; height: 40px; line-height: 42px; font-size: 30px; background: #34b091; 
+.banner .carousel-control {top: 45%; width: 40px; height: 40px; line-height: 42px; font-size: 30px; background: #34b091;
                             border-radius: 50px; bottom: 42%; opacity: 0.8;}
-.banner .carousel-control:hover{background: #3b3e4a;}                            
+.banner .carousel-control:hover{background: #3b3e4a;}
 .banner .carousel-control.right{right: 10%;}
 .banner .carousel-control.left{left: 10%;}
 
@@ -189,30 +189,30 @@ margin-top: 10px;
 
 .accordion-caret .accordion-toggle:hover {
         text-decoration: none;
-    
+
     }
-    
+
 .accordion-caret .accordion-toggle:before {
-    
+
     vertical-align: -1px;
-    
+
     border-bottom: 0;
     line-height: 0;
 }
 .accordion-caret .accordion-toggle:not(.collapsed):before {
-    
+
     float: right;
     color:#000;
     display:inline-block;
     content: url(../img/minus-sign.png);
 
-    
+
 }
 .accordion-caret .accordion-toggle.collapsed:before {
-       
+
     color:#fff;float: right;
       content: url(../img/plus-sign.png);
-    
+
 }
 .panel-title .accordion-toggle.collapsed{padding-left: 10px;}
 .panel-title .accordion-toggle:not(.collapsed){background: #3b3e4a !important; display: block; padding-left: 10px; color: #fff;}
@@ -237,7 +237,7 @@ margin-top: 10px;
 .site-content .block h1{font-size: 18px; line-height: 24px; color: #fff; text-transform: uppercase; font-family: 'source_sans_probold'; padding-bottom: 10px;}
 .site-content .block ul{margin: 0; padding: 0;}
 .site-content .block ul li{list-style: none; line-height: 28px;}
-.site-content .block ul li a{font-size: 14px; color: #cbcbcb;font-family: 'source_sans_proregular'; border-bottom: 1px solid #83858b;} 
+.site-content .block ul li a{font-size: 14px; color: #cbcbcb;font-family: 'source_sans_proregular'; border-bottom: 1px solid #83858b;}
 .site-content .block ul li a:hover{text-decoration: none; color: #fff;}
 .site-content .block .input-group {margin-top: 10px;}
 .site-content .block .input-group-btn .btn{border-radius: 0 20px 20px 0; background: #34b091; color: #fff; font-family: 'source_sans_problack'; text-transform: uppercase; border: none; padding: 6px 5px; font-size: 12px; line-height: 23px;}
@@ -245,7 +245,7 @@ margin-top: 10px;
 .input-group .form-control {border-radius: 19px;background: #454855; border: none;}
 .site-content .block .social li a{text-decoration: none; border-bottom: 0;}
 .site-content .block .social{margin-top: 8px;}
-.social [class^="fw-icon-"]{font-size: 18px; width: 40px; height: 40px; 
+.social [class^="fw-icon-"]{font-size: 18px; width: 40px; height: 40px;
                             line-height: 14px; padding:14px; background: #34b091; color: #fff; border-radius: 50%; display: inline-block; margin-right: 5px;}
 .social [class^="fw-icon-"]:hover{background: #454855; color: #34b091; transition:all 1s;}
 .social li{display: inline-block;}
@@ -258,7 +258,7 @@ margin-top: 10px;
 * {box-sizing:border-box}
 
 
-.skilleva{ 
+.skilleva{
     border-style: solid;
     border-color:darkgreen;
     padding: 20px;
@@ -320,15 +320,15 @@ margin-bottom: 20px;}
 
 .htmlb {width: 90%; background-color: #4CAF50;}
 .CCb {width: 90%; background-color: #2196F3;}
-.SQLb {width: 80%; background-color: lightcoral;}
+.SQLb {width: 60%; background-color: lightcoral;}
 .MSb {width: 100%; background-color: lightsteelblue;}
 .WEb {width: 100%; background-color: mediumpurple;}
-.PSb {width: 60%; background-color: greenyellow;}
-.PYb {width: 50%; background-color: darkgoldenrod;}
+.PSb {width: 40%; background-color: greenyellow;}
+.PYb {width: 0%; background-color: darkgoldenrod;}
 .TMb {width: 100%; background-color: palevioletred;}
 .LSb {width: 70%; background-color: burlywood;}
-.EIb {width: 20%; background-color: darkkhaki;}
-.JWSb {width: 40%; background-color: violet;}
+.EIb {width: 80%; background-color: darkkhaki;}
+.JWSb {width: 20%; background-color: violet;}
 .CRb {width: 90%; background-color: mediumorchid;}
 .RLb {width: 100%; background-color: yellowgreen;}
 .WHb {width: 80%; background-color: plum;}
@@ -409,4 +409,3 @@ margin-bottom: 20px;}
   border: 1px solid #ccc;
   border-top: none;
 }
-
