@@ -358,20 +358,20 @@ margin-bottom: 20px;}
 /*This is the Skill Bar for Team*/
 
 .htmld {width: 90%; background-color: #4CAF50;}
-.CCd {width: 90%; background-color: #2196F3;}
-.SQLd {width: 80%; background-color: lightcoral;}
-.MSd {width: 100%; background-color: lightsteelblue;}
+.CCd {width: 95%; background-color: #2196F3;}
+.SQLd {width: 78.75%; background-color: lightcoral;}
+.MSd {width: 96.25%; background-color: lightsteelblue;}
 .WEd {width: 100%; background-color: mediumpurple;}
-.PSd {width: 60%; background-color: greenyellow;}
-.PYd {width: 50%; background-color: darkgoldenrod;}
-.TMd {width: 100%; background-color: palevioletred;}
-.LSd {width: 70%; background-color: burlywood;}
-.EId {width: 20%; background-color: darkkhaki;}
-.JWSd {width: 40%; background-color: violet;}
-.CRd {width: 90%; background-color: mediumorchid;}
-.RLd {width: 100%; background-color: yellowgreen;}
-.WHd {width: 80%; background-color: plum;}
-.IWd {width: 100%; background-color: lightcoral;}
+.PSd {width: 70%; background-color: greenyellow;}
+.PYd {width: 53.75%; background-color: darkgoldenrod;}
+.TMd {width: 81.25%; background-color: palevioletred;}
+.LSd {width: 71.25%; background-color: burlywood;}
+.EId {width: 71.25%; background-color: darkkhaki;}
+.JWSd {width: 23.25%; background-color: violet;}
+.CRd {width: 85%; background-color: mediumorchid;}
+.RLd {width: 98.75%; background-color: yellowgreen;}
+.WHd {width: 87.5%; background-color: plum;}
+.IWd {width: 97.5%; background-color: lightcoral;}
 
 .tab {
   overflow: hidden;
