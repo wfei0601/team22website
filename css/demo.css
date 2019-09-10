@@ -161,8 +161,9 @@
 .timeline::after {
   content: '';
   position: absolute;
-  width: 6px;
-  background-color: white;
+  width: 10px;
+    border-radius: 3px;
+  background-color:rosybrown;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -177,11 +178,11 @@
 .containerT::after {
   content: '';
   position: absolute;
-  width: 25px;
-  height: 25px;
-  right: -17px;
-  background-color: white;
-  border: 4px solid #FF9F55;
+  width: 30px;
+  height: 30px;
+  right: -15px;
+  background-color: darkseagreen;
+  border: 4px solid darkseagreen;
   top: 15px;
   border-radius: 50%;
   z-index: 1;
@@ -205,9 +206,9 @@
   width: 0;
   z-index: 1;
   right: 30px;
-  border: medium solid white;
+  border: medium solid lightyellow;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent white;
+  border-color: transparent transparent transparent floralwhite;
 }
 
 /* Add arrows to the right container (pointing left) */
@@ -221,7 +222,7 @@
   left: 30px;
   border: medium solid white;
   border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
+  border-color: transparent floralwhite transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
@@ -232,9 +233,9 @@
 /* The actual content */
 .contentT {
   padding: 20px 30px;
-  background-color: white;
+  background-color: lightyellow;
   position: relative;
-  border-radius: 6px;
+  border-radius: 20px;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
@@ -268,4 +269,9 @@
   .right {
     left: 0%;
   }
+}
+
+.listtimeline{
+
+list-style: none;
 }
