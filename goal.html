@@ -26,6 +26,22 @@
       <script src="js/html5shiv.js"></script>
       <script src="js/respond.min.js"></script>
 
+      <script>
+  function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+  }
+  </script>
+
 
   </head>
 
@@ -48,10 +64,10 @@
             <ul class="nav navbar-nav">
               <li><a href="index.html">Home</a></li>
               <li><a href="team_profile.html">About Us</a></li>
-                <li><a href="grade.html">Grades and Reviews</a></li>
+                <li><a href="grade.html">Grades</a></li>
                 <li><a href="goal.html">Goals</a></li>
               <li><a href="schedule.html">Schedule</a></li>
-                  <li><a href="memory.html">Memory Dashboard</a></li
+                <li><a href="memory.html">Memory</a></li>
             </ul>
           </div>
         </div>
@@ -60,24 +76,342 @@
     </div>
 
       <BR>
+        <div class="container">
+        <center>
+              <h1 class="heading">Team and Personal Goals</h1>
+            <p> Click the tab to see personal goals</p>
+              </center>
+                      </div>
+
+        <div class="container col-lg-12">
+
+      <div class="tab col-lg-12">
+                    <button class="tablinks" onclick="openCity(event, 'Team')">Team</button>
+            <button class="tablinks" onclick="openCity(event, 'AW')">Alicia Walters</button>
+            <button class="tablinks" onclick="openCity(event, 'EM')">Ethan Myers</button>
+            <button class="tablinks" onclick="openCity(event, 'NW')">Noah Weisling</button>
+              <button class="tablinks" onclick="openCity(event, 'QY')">Qiwen Yang</button>
+                    </div>
 
 
+                  <!-- The following is Alicia personal Goal -->
+
+              <div id="AW" class="tabcontent">
+                    <div class="container">
+                         <div class="timeline">
+                                  <div class="containerT left">
+                                    <div class="contentT">
+                                   <center>
+                                      <h3 class="textorient"><b>September</b></h3>
+
+                                      <h4><b>Goal: Improve grammar and writing skills</b></h4>
+                                      <br>
+                                      <ul class="listtimeline">
+                                        <li><b>Step 1: </b>Read more books and articles both for fun and get to know the industry  </li>
+                                        <li><b>Step 2: </b> Write diary by putting classnotes into stories </li>
+                                        <li><b>Step 3: </b> Go to writing centers to get help</li>
+                                      </ul>
+
+                                    </center>
+
+                                    </div>
+                                  </div>
+                                  <div class="containerT right">
+                                    <div class="contentT">
+
+                                    <center>
+                                      <h3 class="textorient"><b>October</b></h3>
+                                      <h4> <b> Goal: Secure a Full-time Position </b></h4>
+                      <br>
+                                      <ul class="listtimeline">
+                                        <li><b>Step 1: </b>Networking with Employees and MSIS Alumni </li>
+                                        <li><b>Step 2: </b> Apply for both oncampus and offcampus Positions</li>
+                                        <li><b>Step 3: </b> Do a detailed company research and prepare for interviews </li>
+                                      </ul>
+                                    </center>
+                                    </div>
+                                  </div>
+
+                                <div class="containerT left">
+                                    <div class="contentT">
+                                      <center>
+                                      <h3 class="textorient"><b>November</b></h3>
+                                      <h4><b>Goal: More Involvement in the MSIS Community and with Classmates</b></h4>
+                                      <br>
+                                      <ul class="listtimeline">
+                                        <li><b>Step 1: </b> Find times to hangout and social with classmates </li>
+                                        <li><b>Step 2: </b> Building relationship with Faculties and Professors </li>
+                                        <li><b>Step 3: </b> Emjoying classes, works, team meetings</li>
+                                      </ul>
+                                    </center>
+
+                                    </div>
+                                  </div>
+                                  <div class="containerT right">
+                                    <div class="contentT">
+                                      <center>
+                                      <h3 class="textorient"><b>December</b></h3>
+                                      <h4><b>Goal: Earn a 4.0 GPA </b></h4>
+                                      <br>
+                                      <ul class="listtimeline">
+                                        <li><b>Step 1: </b> Study ahead and review each day </li>
+                                        <li><b>Step 2: </b> Earn a good grade (95% or above on every assignments, quizs, and exams) </li>
+                                        <li><b>Step 3: </b> Continouse to refine knowlege base and fill in the gaps </li>
+                                      </ul>
+                                    </center>
+                                    </div>
+                                  </div>
+                                </div>
+
+
+                  </div>
+            </div>
+
+
+
+
+    <!-- Thi is for Ethan Personal Goal -->
+    <div id="EM" class="tabcontent">
+       <div class="container">
+              <div class="timeline">
+                <div class="containerT left">
+                  <div class="contentT">
+                 <center>
+                    <h3 class="textorient"><b>September</b></h3>
+
+                    <h4><b>Goal: Improve grammar and business writing skills</b></h4>
+                    <br>
+                    <ul class="listtimeline">
+                      <li><b>Step 1: </b>Read more books and articles both for fun and get to know the industry  </li>
+                      <li><b>Step 2: </b> Write diary by putting classnotes into stories </li>
+                      <li><b>Step 3: </b> Go to writing centers to get help</li>
+                    </ul>
+
+                  </center>
+
+                  </div>
+                </div>
+                <div class="containerT right">
+                  <div class="contentT">
+
+                  <center>
+                    <h3 class="textorient"><b>October</b></h3>
+                    <h4> <b> Goal: Secure a Full-time Position </b></h4>
+    <br>
+                    <ul class="listtimeline">
+                      <li><b>Step 1: </b>Networking with Employees and MSIS Alumni </li>
+                      <li><b>Step 2: </b> Apply for both oncampus and offcampus Positions</li>
+                      <li><b>Step 3: </b> Do a detailed company research and prepare for interviews </li>
+                    </ul>
+                  </center>
+                  </div>
+                </div>
+
+              <div class="containerT left">
+                  <div class="contentT">
+                    <center>
+                    <h3 class="textorient"><b>November</b></h3>
+                    <h4><b>Goal: More Involvement in the MSIS Community and with Classmates</b></h4>
+                    <br>
+                    <ul class="listtimeline">
+                      <li><b>Step 1: </b> Find times to hangout and social with classmates </li>
+                      <li><b>Step 2: </b> Building relationship with Faculties and Professors </li>
+                      <li><b>Step 3: </b> Emjoying classes, works, team meetings</li>
+                    </ul>
+                  </center>
+
+                  </div>
+                </div>
+                <div class="containerT right">
+                  <div class="contentT">
+                    <center>
+                    <h3 class="textorient"><b>December</b></h3>
+                    <h4><b>Goal: Earn a 4.0 GPA </b></h4>
+                    <br>
+                    <ul class="listtimeline">
+                      <li><b>Step 1: </b> Study ahead and review each day </li>
+                      <li><b>Step 2: </b> Earn a good grade (95% or above on every assignments, quizs, and exams) </li>
+                      <li><b>Step 3: </b> Continouse to refine knowlege base and fill in the gaps </li>
+                    </ul>
+                  </center>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+
+
+
+
+
+
+<!-- This is for Noah personal GOALS -->
+
+
+          <div id="NW" class="tabcontent">
+           <div class="container">
+                       <div class="timeline">
+                         <div class="containerT left">
+                           <div class="contentT">
+                          <center>
+                             <h3 class="textorient"><b>September</b></h3>
+
+                             <h4><b>Goal: Improve grammar and business writing skills</b></h4>
+                             <br>
+                             <ul class="listtimeline">
+                               <li><b>Step 1: </b>Read more books and articles both for fun and get to know the industry  </li>
+                               <li><b>Step 2: </b> Write diary by putting classnotes into stories </li>
+                               <li><b>Step 3: </b> Go to writing centers to get help</li>
+                             </ul>
+
+                           </center>
+
+                           </div>
+                         </div>
+                         <div class="containerT right">
+                           <div class="contentT">
+
+                           <center>
+                             <h3 class="textorient"><b>October</b></h3>
+                             <h4> <b> Goal: Secure a Full-time Position </b></h4>
+             <br>
+                             <ul class="listtimeline">
+                               <li><b>Step 1: </b>Networking with Employees and MSIS Alumni </li>
+                               <li><b>Step 2: </b> Apply for both oncampus and offcampus Positions</li>
+                               <li><b>Step 3: </b> Do a detailed company research and prepare for interviews </li>
+                             </ul>
+                           </center>
+                           </div>
+                         </div>
+
+                       <div class="containerT left">
+                           <div class="contentT">
+                             <center>
+                             <h3 class="textorient"><b>November</b></h3>
+                             <h4><b>Goal: More Involvement in the MSIS Community and with Classmates</b></h4>
+                             <br>
+                             <ul class="listtimeline">
+                               <li><b>Step 1: </b> Find times to hangout and social with classmates </li>
+                               <li><b>Step 2: </b> Building relationship with Faculties and Professors </li>
+                               <li><b>Step 3: </b> Emjoying classes, works, team meetings</li>
+                             </ul>
+                           </center>
+
+                           </div>
+                         </div>
+                         <div class="containerT right">
+                           <div class="contentT">
+                             <center>
+                             <h3 class="textorient"><b>December</b></h3>
+                             <h4><b>Goal: Earn a 4.0 GPA </b></h4>
+                             <br>
+                             <ul class="listtimeline">
+                               <li><b>Step 1: </b> Study ahead and review each day </li>
+                               <li><b>Step 2: </b> Earn a good grade (95% or above on every assignments, quizs, and exams) </li>
+                               <li><b>Step 3: </b> Continouse to refine knowlege base and fill in the gaps </li>
+                             </ul>
+                           </center>
+                           </div>
+                         </div>
+                       </div>
+              </div>
+            </div>
+
+
+     <!-- This is for Qiwen's GOAL -->
+
+       <div id="QY" class="tabcontent">
+        <div class="container">
+                  <div class="container">
+
+                    <div class="timeline">
+                      <div class="containerT left">
+                        <div class="contentT">
+                       <center>
+                          <h3 class="textorient"><b>September</b></h3>
+
+                          <h4><b>Goal: Improve Storytelling in Presentation</b></h4>
+                          <br>
+                          <ul class="listtimeline">
+                            <li><b>Step 1: </b> Practice Hypothesis Tree Model</li>
+                            <li><b>Step 2: </b> Practice aligning recomendation with strategy</li>
+                            <li><b>Step 3: </b> Improve incorporate Research in the presentation</li>
+                          </ul>
+
+                        </center>
+
+                        </div>
+                      </div>
+                      <div class="containerT right">
+                        <div class="contentT">
+
+                        <center>
+                          <h3 class="textorient"><b>October</b></h3>
+                          <h4> <b> Goal: Refine Presentation and Programming Skills </b></h4>
+          <br>
+                          <ul class="listtimeline">
+                            <li><b>Step 1: </b>  </li>
+                            <li><b>Step 2: </b>  </li>
+                            <li><b>Step 3: </b> </li>
+                          </ul>
+                        </center>
+                        </div>
+                      </div>
+
+                    <div class="containerT left">
+                        <div class="contentT">
+                          <center>
+                          <h3 class="textorient"><b>November</b></h3>
+                          <h4><b>Goal: Build a Long-term Friendship</b></h4>
+                          <br>
+                          <ul class="listtimeline">
+                            <li><b>Step 1: </b> Going out for Lunch or Dinner together </li>
+                            <li><b>Step 2: </b> Going out to have fun together (release stress)  </li>
+                            <li><b>Step 3: </b> Help each other succeed in the Core (Grades and Knowledge) </li>
+                          </ul>
+                        </center>
+
+                        </div>
+                      </div>
+                      <div class="containerT right">
+                        <div class="contentT">
+                          <center>
+                          <h3 class="textorient"><b>December</b></h3>
+                          <h4><b>Goal: Win Final Project Presentation</b></h4>
+                          <br>
+                          <ul class="listtimeline">
+                            <li><b>Step 1: </b> Study hard to master the material taught by professor </li>
+                            <li><b>Step 2: </b> Utilize all opportunities and obscales to learn and pratice </li>
+                            <li><b>Step 3: </b>  </li>
+                          </ul>
+                        </center>
+                        </div>
+                      </div>
+                    </div>
+            </div>
+           </div>
+            </div>
+
+
+<!-- The following is the team semster goal -->
+<div id="Team" class="tabcontent">
+<div class="container">
         <div class="container">
 
           <div class="timeline">
             <div class="containerT left">
               <div class="contentT">
              <center>
-                <h3>September</h3>
-                <br>
-                <center><h4><b>Goal: Improve Storytelling in presentation</b></h4></center>
-                <ul class="listtimeline">
-                  <br>
+                <h3 class="textorient"><b>September</b></h3>
 
+                <h4><b>Goal: Improve Storytelling in Presentation</b></h4>
+                <br>
+                <ul class="listtimeline">
                   <li><b>Step 1: </b> Practice Hypothesis Tree Model</li>
                   <li><b>Step 2: </b> Practice aligning recomendation with strategy</li>
                   <li><b>Step 3: </b> Improve incorporate Research in the presentation</li>
                 </ul>
+
               </center>
 
               </div>
@@ -86,29 +420,53 @@
               <div class="contentT">
 
               <center>
-                <h3>October</h3>
+                <h3 class="textorient"><b>October</b></h3>
                 <h4> <b> Goal: Refine Presentation and Programming Skills </b></h4>
-
-                <ul>
-
-
+<br>
+                <ul class="listtimeline">
+                  <li><b>Step 1: </b>  </li>
+                  <li><b>Step 2: </b>  </li>
+                  <li><b>Step 3: </b> </li>
+                </ul>
+              </center>
               </div>
             </div>
-            <div class="containerT left">
+
+          <div class="containerT left">
               <div class="contentT">
-                <h2>November</h2>
-                <p>Lorem ipsum..</p>
+                <center>
+                <h3 class="textorient"><b>November</b></h3>
+                <h4><b>Goal: Build a Long-term Friendship</b></h4>
+                <br>
+                <ul class="listtimeline">
+                  <li><b>Step 1: </b> Going out for Lunch or Dinner together </li>
+                  <li><b>Step 2: </b> Going out to have fun together (release stress)  </li>
+                  <li><b>Step 3: </b> Help each other succeed in the Core (Grades and Knowledge) </li>
+                </ul>
+              </center>
+
               </div>
             </div>
             <div class="containerT right">
               <div class="contentT">
-                <h2>December</h2>
-                <p>Lorem ipsum..</p>
+                <center>
+                <h3 class="textorient"><b>December</b></h3>
+                <h4><b>Goal: Win Final Project Presentation</b></h4>
+                <br>
+                <ul class="listtimeline">
+                  <li><b>Step 1: </b> Study hard to master the material taught by professor </li>
+                  <li><b>Step 2: </b> Utilize all opportunities and obscales to learn and pratice </li>
+                  <li><b>Step 3: </b>  </li>
+                </ul>
+              </center>
               </div>
             </div>
           </div>
 
               </div>
+    </div>
+           </div>
+            </div>
 
 
               <BR>

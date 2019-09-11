@@ -235,7 +235,7 @@
   padding: 20px 30px;
   background-color: lightyellow;
   position: relative;
-  border-radius: 20px;
+  border-radius: 30px;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
@@ -248,8 +248,8 @@
 /* Full-width containers */
   .containerT {
     width: 100%;
-    padding-left: 70px;
-    padding-right: 25px;
+    padding-left: 50px;
+    padding-right: 15px;
   }
 
 /* Make sure that all arrows are pointing leftwards */
@@ -274,4 +274,16 @@
 .listtimeline{
 
 list-style: none;
+text-align: left;
 }
+
+.textorient{
+	writing-mode: vertical-rl;
+	text-orientation: mix;
+	position: absolute;
+  left: 10px;
+
+}
+
+.heading{
+color: Black;}
