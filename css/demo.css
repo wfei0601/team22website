@@ -307,3 +307,6 @@ type="text/css">
         padding: 10px;
         text-align: left;
     }
+		.frontlist{
+			list-style: none;
+		}
