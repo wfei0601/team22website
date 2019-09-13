@@ -310,6 +310,7 @@ type="text/css">
 		.frontlist{
 			list-style: none;
 		}
+<<<<<<< HEAD
 		#valueCarousel{
 			margin-left: 0px;
 			margin-right: 0px;
@@ -323,3 +324,15 @@ type="text/css">
 			padding-bottom: 50px;
 			font-weight: bold;
 		}
+=======
+
+
+
+.pargraph{
+    color:darkcyan;
+    font-size: 20px;
+line-height: 30px;
+  font-style: oblique;
+    
+}
+>>>>>>> 2159078839a0f6d80bf7b1208b86399cd4911349
