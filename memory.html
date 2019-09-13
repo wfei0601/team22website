@@ -1,0 +1,231 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+    <title>Team22-grade-review</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/component.css">
+    <link rel="stylesheet" href="css/custom-styles.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+
+
+	 <link rel="stylesheet" href="css/demo.css">
+    <link rel="stylesheet" href="css/font-awesome-ie7.css">
+
+      <script src="js/jquery.mobilemenu.js"></script>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(".add-row").click(function(){
+            var name = $("#name").val();
+            var email = $("#email").val();
+            var markup = "<tr><td><input type='checkbox' name='record'></td><td>" + name + "</td><td>" + email + "</td></tr>";
+            $("table tbody").append(markup);
+        });
+
+        // Find and remove selected table rows
+        $(".delete-row").click(function(){
+            $("table tbody").find('input[name="record"]').each(function(){
+            	if($(this).is(":checked")){
+                    $(this).parents("tr").remove();
+                }
+            });
+        });
+    });
+</script>
+
+
+  </head>
+
+  <body>
+    <div class="header-wrapper">
+      <div class="site-name">
+        <h1>NUll PROBLEM CONSULTING TEAM</h1>
+        <h2>MSIS Class 2020 - Kelley School of Business</h2>
+      </div>
+    </div>
+    <div class="menu">
+      <div class="navbar">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <i class="fw-icon-th-list"></i>
+            </button>
+          </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="team_profile.html">About Us</a></li>
+                <li><a href="grade.html">Grades</a></li>
+                <li><a href="goal.html">Goals</a></li>
+              <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="memory.html">Memory</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+      <BR>
+          <BR>
+<div class="container">
+   <div class="row responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/DAYTON.jpg">
+      <img src="img/DAYTON.jpg" alt="Dayton" width="500" height="300">
+    </a>
+      <div class="desc"><p> Core Coordinator and professor for the Collboration, Team and Ethics Module</p>
+          <a href="mailto:kedayton@indiana.edu"><i class="fw-icon-envelope"></i>Need Help? Send me an Email</a></div>
+  </div>
+</div>
+<BR>
+
+<div class="row responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/bipin.jpg">
+      <img src="img/bipin.jpg" alt="Bipin" width="500" height="300">
+    </a>
+    <div class="desc"><p>Department Chair and Professor for the Cloud Computing Module</p>
+      <a href="mailto:bkprabha@indiana.edu"><i class="fw-icon-envelope"></i>Need Help? Send me an Email</a></div>
+    </div>
+  </div>
+<BR>
+
+<div class="row responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/lopes.jpg">
+      <img src="img/lopes.jpg" alt="Alex Lopes" width="500" height="300">
+    </a>
+    <div class="desc"><P>Professor for the BPM and Agile Module</P>
+         <a href="mailto:alopes@indiana.edu"><i class="fw-icon-envelope"></i>Need Help? Send me an Email</a></div></div>
+  </div>
+
+<br>
+<div class="row responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/CLARK.jpg">
+      <img src="img/CLARK.jpg" alt="clark" width="500" height="300">
+    </a>
+    <div class="desc"><P>Professor for the IT Strategy Module</P>
+          <a href="mailto:ruclark@indiana.edu"><i class="fw-icon-envelope"></i>Need Help? Send me an Email</a>
+      
+      </div>
+  </div>
+</div>
+
+    </div>
+    
+<br>
+    
+    
+    <div class="container">
+   <div class="row responsive">
+  <div class="gallery">
+    <a target="_blank" href="IMG/mfrutige-768.jpg">
+      <img src="IMG/mfrutige-768.jpg" alt="FRUTIGER" width="500" height="300">
+    </a>
+      <div class="desc"><p>Final Project Lead and professor for the Case Analysis Module</p>
+          <a href="mailto:mfrutige@iu.edu"><i class="fw-icon-envelope"></i>Need Help? Send me an Email</a></div>
+  </div>
+</div>
+<BR>
+
+<div class="row responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/ALAN.jpg">
+      <img src="img/ALAN.jpg" alt="ALAN" width="500" height="300">
+    </a>
+    <div class="desc"><p>Professor for the IT Architecture Module</p>
+      <a href="mailto:bardennis@indiana.edu"><i class="fw-icon-envelope"></i>Need Help? Send me an Email</a></div>
+    </div>
+  </div>
+<BR>
+
+<div class="row responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/BALA.jpg">
+      <img src="img/BALA.jpg" alt="bala" width="500" height="300">
+    </a>
+    <div class="desc"><P>Professor for the ERP and Digital Module</P>
+         <a href="mailto:hbala@indiana.edu"><i class="fw-icon-envelope"></i>Need Help? Send me an Email</a></div></div>
+  </div>
+
+<br>
+<div class="row responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/TOM.jpg">
+      <img src="img/TOM.jpg" alt="clark" width="500" height="300">
+    </a>
+    <div class="desc"><P>Professor for the Data and System Module</P>
+          <a href="mailto:tomgreg@iu.edu"><i class="fw-icon-envelope"></i>Need Help? Send me an Email</a>
+      
+      </div>
+  </div>
+</div>
+
+    </div>
+
+        
+
+
+
+      <div class="footer-wrapper">
+        <div class="site-content">
+      <div class="container">
+        <div class="row">
+
+
+          <div class="block col-md-6">
+            <h1> Add us on LinkedIn</h1>
+            <ul class="social">
+              <li><a href="https://www.linkedin.com/in/aww0601/"><i class="fw-icon-linkedin"></i>Alicia</a></li>
+              <li><a href="https://www.linkedin.com/in/ethan-j-myers/"><i class="fw-icon-linkedin"></i>Ethan</a></li>
+              <li><a href="https://www.linkedin.com/in/noahweisling/"><i class="fw-icon-linkedin"></i>Noah</a></li>
+              <li><a href="https://www.linkedin.com/in/qiwenyang/"><i class="fw-icon-linkedin"></i>Kevin</a></li>
+            </ul>
+          </div>
+
+          <div class="block col-md-6">
+            <h1> Send us an Email</h1>
+            <ul class="social">
+              <li><a href="mailto:wfei@iu.edu"><i class="fw-icon-envelope"></i>Alicia</a></li>
+              <li><a href="mailto:ethmyers@iu.edu"><i class="fw-icon-envelope"></i>Ethan</a></li>
+              <li><a href="mailto:nweislin@indiana.edu"><i class="fw-icon-envelope"></i>Noah</a></li>
+              <li><a href="mailto:qiwyang@iu.edu"><i class="fw-icon-envelope"></i>Kevin</a></li>
+            </ul>
+          </div>
+
+        </div>
+          </div>
+            </div>
+      </div>
+
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery-1.9.1.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
+
+  </body>
+</html>
+
+<!--This home page design layout is taken from https://www.free-css.com/free-css-templates?start=432  we updated the content without changing much css and javascript
+but the addtional pages other than the home are designed and write by ourself -->
