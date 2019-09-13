@@ -310,21 +310,6 @@ type="text/css">
 		.frontlist{
 			list-style: none;
 		}
-		#valueCarousel{
-			margin-left: 0px;
-			margin-right: 0px;
-			width: 100%;
-		}
-		#vCarousel-item{
-			background-color: black;
-			color: white;
-			text-align:center;
-			padding-top: 50px;
-			padding-bottom: 50px;
-			font-weight: bold;
-		}
-
-
 
 .pargraph{
     color:darkcyan;
@@ -332,4 +317,18 @@ type="text/css">
 line-height: 30px;
   font-style: oblique;
 
+}
+
+#valueCarousel{
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 100%;
+}
+#vCarousel-item{
+	background-color: black;
+	color: white;
+	text-align:center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-weight: bold;
 }
