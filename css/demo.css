@@ -310,3 +310,13 @@ type="text/css">
 		.frontlist{
 			list-style: none;
 		}
+
+
+
+.pargraph{
+    color:darkcyan;
+    font-size: 20px;
+line-height: 30px;
+  font-style: oblique;
+    
+}
