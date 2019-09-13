@@ -311,14 +311,26 @@ type="text/css">
 			list-style: none;
 		}
 
-
-
 .pargraph{
     color:darkcyan;
     font-size: 20px;
 line-height: 30px;
   font-style: oblique;
-    
+
+}
+
+#valueCarousel{
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 100%;
+}
+#vCarousel-item{
+	background-color: black;
+	color: white;
+	text-align:center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-weight: bold;
 }
 
 div.gallery {

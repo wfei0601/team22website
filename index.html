@@ -16,10 +16,8 @@
     <link rel="stylesheet" href="css/component.css">
     <link rel="stylesheet" href="css/custom-styles.css">
     <link rel="stylesheet" href="css/font-awesome.css">
-
-
-	 <link rel="stylesheet" href="css/demo.css">
     <link rel="stylesheet" href="css/font-awesome-ie7.css">
+	  <link rel="stylesheet" href="css/demo.css">
       <script src="js/html5shiv.js"></script>
       <script src="js/respond.min.js"></script>
 
@@ -199,37 +197,57 @@
 
           <div class="ruler"></div>
         </div>
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-              <img src="ALICIA2.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="Ethan2.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="kevin.jpg" class="d-block w-100" alt="...">
-          </div>
+        <br>
+        <div class="block-title">
+          <center>
+          <h1>Our Values</h1>
+          </center>
         </div>
-      </div>
-      <div class="container">
-        <div class="featured-content">
-          <div class="col-md-12">
-            <div class="block">
-              <img src="img/collaborate.jpg" width="300" alt="" class="img-spacing thumbnail">
-              <h1 class="heading">Our Values </h1>
-              <ul class="frontlist">
-                <li class="frontlist"><b>Positivity</b> - We maintain a positive attitude </li>
-                <li>Accountability</li>
-                <li>Communication</li>
-                <li>Flexibility</li>
-                <li>Curiosity</li>
-              </ul>
+        <br>
+        <center>
+        <div id="valueCarousel" class="carousel slide" data-ride="carousel" data-interval=2500>
+          <!-- Indicators -->
+          <!-- <ol class="carousel-indicators">
+            <li data-target="#valueCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#valueCarousel" data-slide-to="1"></li>
+            <li data-target="#valueCarousel" data-slide-to="2"></li>
+          </ol> -->
 
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active" id="vCarousel-item">
+              <h1>Accountability</h1>
+            </div>
+
+            <div class="item" id="vCarousel-item">
+              <h1>Communication</h1>
+            </div>
+
+            <div class="item" id="vCarousel-item">
+              <h1>Flexibility</h1>
+            </div>
+
+            <div class="item" id="vCarousel-item">
+              <h1>Curiosity</h1>
+            </div>
+
+            <div class="item" id="vCarousel-item">
+              <h1>Positivity</h1>
+            </div>
+
+            <div class="item" id="vCarousel-item">
+              <h1>Mental and Physical Health</h1>
             </div>
           </div>
+          </center>
+
+          <!-- Left and right controls -->
+          <!-- <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          </a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          </a> -->
         </div>
-      </div>
+        <br>
     </div>
       <div class="footer-wrapper">
         <div class="site-content">
@@ -269,6 +287,8 @@
     <script src="js/jquery-1.9.1.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>ScrollReveal().reveal('div',{ duration: 1500, interval: 30 });</script>
 
 
   </body>
